@@ -1,9 +1,9 @@
-baseURL = "https://lgaida.github.io/mediumish-gohugo-theme-demo/"
-languageCode = "en-us"
-title = "Mediumish"
+baseURL = "https://lgaida.github.io/"
+languageCode = "fr"
+title = "Le blog de transport.gouv.fr"
 theme = "mediumish-gohugo-theme"
 summaryLength = 25
-copyright = "John Doe - All rights reserved"
+copyright = "Ce texte est publié sous licence ..."
 enableEmoji = true
 publishDir = "docs"
 #disqusShortname = "your-shortname-here"
@@ -11,7 +11,7 @@ publishDir = "docs"
 
 [params]
   logo = "/images/logo.png"
-  description ="the clean blog!"
+  description ="Et PAN !"
   #mailchimp = "you can provide a mailchimp-link here"
 
 [params.author]
@@ -42,19 +42,9 @@ Currently trying to get this blog running, still don't know what the blog will b
     name = "Blog"
     weight = 100
     identifier = "blog"
-    url = "/blog"
-[[menu.main]]
-    name = "Separate"
-    weight = 100
-    identifier = "separate"
-    url = "/separate"
-[[menu.main]]
-    name = "About Me"
-    identifier = "about"
-    weight = 200
     url = "/"
 [[menu.main]]
-    name = "Imprint"
-    identifier = "imprint"
-    weight = 200
-    url = "/static/imprint"
+    name = "Site du projet"
+    weight = 100
+    identifier = "separate"
+    url = "https://transport.data.gouv.fr"
