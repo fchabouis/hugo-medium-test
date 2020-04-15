@@ -1,4 +1,4 @@
-baseURL = "https://lgaida.github.io/"
+baseURL = "https://sleepy-meitner-694faa.netlify.com/"
 languageCode = "fr"
 title = "Le blog de transport.gouv.fr"
 theme = "mediumish"
