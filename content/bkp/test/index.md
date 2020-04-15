@@ -2,7 +2,7 @@
 title: ssssssss
 date: 2020-04-15T11:20:39.129Z
 description: ssss
-image: img/bruit-127-blanqui.png
+image: bruit-127-blanqui.png
 ---
 # Ceci est un texte
 

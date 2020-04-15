@@ -47,10 +47,14 @@
                     {{with $images.GetMatch "*cover*" }}
                         <img class="featured-image img-fluid" src="{{ .Permalink }}" alt="thumbnail for this post">
                     {{end}}
+                    <img class="featured-image img-fluid" src="{{ $.Param "image" }}" alt="thumbnail for this post">
+
+                    <h1 class="posttitle">{{ $.Param "image" }}</h1> 
+
                     <!-- End Featured Image -->
 
                     <!-- Post Content -->
-                    <div class="article-post">
+                    <div class="article-post">xx
                         {{ .Content}}
                     </div>
                     
