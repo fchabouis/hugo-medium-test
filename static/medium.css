@@ -7,15 +7,6 @@ License: https://www.wowthemes.net/freebies-license/
     padding: 1rem 0rem;
 }
 
-.article-description {
-    color: rgba(0, 0, 0, 0.54);
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 32px;
-    font-family: Merriweather;
-    padding-bottom: 24px;
-}
-
 a {
     color: #00ab6b;
     transition: all 0.2s;
@@ -54,14 +45,10 @@ pre {
 }
 
 .site-content {
-    min-height: 90vh;
+    min-height: 60vh;
     padding-top: 1.5rem;
     margin-top: 57px;
     transition: all 0.4s;
-}
-
-.site-content > .container {
-    min-height: 90vh;
 }
 
 section {
@@ -316,9 +303,9 @@ span.post-read-more a:hover {
     font-family: Righteous;
 }
 
-.posttitle {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-    font-weight: 500;
+.mainheading h1.posttitle {
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .footer {
@@ -327,8 +314,8 @@ span.post-read-more a:hover {
     padding-bottom: 12px;
     font-size: 0.8rem;
     color: rgba(0, 0, 0, .44);
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 50px;
+    margin-bottom: 62px;
     position: relative;
     background: #fff;
 }
@@ -394,7 +381,7 @@ blockquote {
 }
 
 .sticky-top-offset {
-    top: 140px;
+    top: 100px;
 }
 
 @media (min-width:1024px) {
@@ -633,11 +620,9 @@ ul.tags li a:hover {
     float: none;
 }
 
-.author-description {
+.authorpage .author-description {
     font-size: 1rem;
     color: rgba(0, 0, 0, .6);
-    display: flex;
-    /* justify-content: space-between; */
 }
 
 .post-top-meta.authorpage .btn.follow {
@@ -854,14 +839,10 @@ iframe {
     }
 }
 
-.img-fluid {
+.card .img-fluid {
     width: 100%;
 }
 
 .sticky-top-80 {
     top: 80px;
-}
-
-.pt-48 {
-    padding-top: 48px;
 }
