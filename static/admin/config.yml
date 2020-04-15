@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo:  fchabouis/test-hugo-cms 
+  repo:  fchabouis/hugo-medium-test
   open_authoring: false
 
 publish_mode: editorial_workflow
