@@ -6,6 +6,7 @@ description: Si une grande partie du territoire dispose désormais d'information
   toujours relayée par les réutilisateurs. Une des raisons principales, au delà
   de la qualité, est le maintien à jour en continu des données.
 image: /images/maj-publi.png
+draft: false
 ---
 ## Les réutilisateurs ont besoin d'une information à jour
 
