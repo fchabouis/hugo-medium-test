@@ -4,5 +4,5 @@ date: {{ .Date }}
 publishdate: {{ .Date }}
 tags: []
 comments: true
-draft: true
+draft: false
 ---
