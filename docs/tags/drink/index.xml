@@ -1,41 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>drink on Mediumish</title>
-    <link>https://lgaida.github.io/mediumish-gohugo-theme-demo/tags/drink/</link>
-    <description>Recent content in drink on Mediumish</description>
+    <title>drink on Le blog de transport.gouv.fr</title>
+    <link>https://lgaida.github.io/tags/drink/</link>
+    <description>Recent content in drink on Le blog de transport.gouv.fr</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>John Doe - All rights reserved</copyright>
+    <language>fr</language>
+    <copyright>Ce texte est publié sous licence ...</copyright>
     <lastBuildDate>Sun, 07 Oct 2018 11:40:14 +0200</lastBuildDate>
     
-	<atom:link href="https://lgaida.github.io/mediumish-gohugo-theme-demo/tags/drink/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lgaida.github.io/tags/drink/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ninth</title>
-      <link>https://lgaida.github.io/mediumish-gohugo-theme-demo/blog/ninth/</link>
+      <link>https://lgaida.github.io/billets/ninth/</link>
       <pubDate>Sun, 07 Oct 2018 11:40:14 +0200</pubDate>
       
-      <guid>https://lgaida.github.io/mediumish-gohugo-theme-demo/blog/ninth/</guid>
+      <guid>https://lgaida.github.io/billets/ninth/</guid>
       <description>This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum.</description>
     </item>
     
     <item>
       <title>Sixth</title>
-      <link>https://lgaida.github.io/mediumish-gohugo-theme-demo/blog/sixth/</link>
+      <link>https://lgaida.github.io/billets/sixth/</link>
       <pubDate>Sun, 07 Oct 2018 11:39:25 +0200</pubDate>
       
-      <guid>https://lgaida.github.io/mediumish-gohugo-theme-demo/blog/sixth/</guid>
+      <guid>https://lgaida.github.io/billets/sixth/</guid>
       <description>This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum.</description>
     </item>
     
     <item>
       <title>Fifth</title>
-      <link>https://lgaida.github.io/mediumish-gohugo-theme-demo/blog/fifth/</link>
+      <link>https://lgaida.github.io/billets/fifth/</link>
       <pubDate>Sun, 07 Oct 2018 11:39:22 +0200</pubDate>
       
-      <guid>https://lgaida.github.io/mediumish-gohugo-theme-demo/blog/fifth/</guid>
+      <guid>https://lgaida.github.io/billets/fifth/</guid>
       <description>This is another post Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum.</description>
     </item>
     
