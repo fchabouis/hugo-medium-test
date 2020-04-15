@@ -5,12 +5,12 @@
 {{ define "main" }}
     {{- partial "_shared/title.html" . -}}
     <div class="main-content">
+        coucou
         <!-- Posts Index
         ================================================== -->
         <section class="recent-posts pt-48">
             <div class="row listrecent">
-                {{ $post_paginator := .Paginate (.Pages) 6 }}
-                {{ range where $post_paginator.Pages "Section" "billets"}}
+                {{ range where .Pages "Section" "billets"}}
                     {{ range .Pages}}
                         {{- partial "list-partials/postbox.html" . -}}
                     {{ end }}
