@@ -3,24 +3,23 @@
 {{ end }}
 
 {{ define "main" }}
-    {{- partial "_shared/title.html" . -}}
-    <div class="main-content">
+    <div class="main-content pt-48">
         <!-- Posts Index
         ================================================== -->
         <section class="recent-posts">            
             <div class="section-title">                
-                <h2><span>All Posts</span></h2>                
+                <h2><span>Tous les billets de la catégorie {{ .Title }}</span></h2>                
             </div>            
             <div class="row listrecent">
-                {{ $post_paginator := .Paginate (.Pages) 6 }}
-                {{ range $post_paginator.Pages }}
+                <!-- {{ $post_paginator := .Paginate (.Pages) 6 }} -->
+                {{ range .Pages }}
                     {{- partial "list-partials/postbox.html" . -}}
                 {{end}}
             </div>
         </section>
-        {{- partial "list-partials/pagination.html" $post_paginator -}}
+        <!-- {{- partial "list-partials/pagination.html" $post_paginator -}} -->
     </div>
-    {{- partial "_shared/alertbar.html" . -}}
+    <!-- {{- partial "_shared/alertbar.html" . -}} -->
 {{ end }}
 
 {{ define "footer"}}
