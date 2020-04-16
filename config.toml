@@ -1,6 +1,6 @@
 baseURL = "https://sleepy-meitner-694faa.netlify.com/"
 languageCode = "fr"
-title = "Le blog de transport.gouv.fr"
+title = "Et PAN !"
 theme = "mediumish"
 summaryLength = 25
 copyright = "Ce texte est publié sous licence ..."
@@ -11,7 +11,7 @@ publishDir = "public"
 
 [params]
   #logo = "/images/logo.png"
-  description ="Et PAN !"
+  description ="Le blog de transport.gouv.fr"
   #mailchimp = "you can provide a mailchimp-link here"
 
 [params.author]
