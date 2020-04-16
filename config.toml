@@ -10,7 +10,7 @@ publishDir = "public"
 #googleAnalytics = "UA-1XXXXXXX1-1"
 
 [params]
-  logo = "/images/logo.png"
+  #logo = "/images/logo.png"
   description ="Et PAN !"
   #mailchimp = "you can provide a mailchimp-link here"
 
@@ -38,11 +38,6 @@ Currently trying to get this blog running, still don't know what the blog will b
   twitter = "<username>"
 
 ## Main Menu
-[[menu.main]]
-    name = "Blog"
-    weight = 100
-    identifier = "blog"
-    url = "/"
 [[menu.main]]
     name = "Site du projet"
     weight = 100
