@@ -7,6 +7,15 @@ License: https://www.wowthemes.net/freebies-license/
     padding: 1rem 0rem;
 }
 
+.article-description {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    font-family: Merriweather;
+    padding-bottom: 24px;
+}
+
 a {
     color: #00ab6b;
     transition: all 0.2s;
@@ -45,10 +54,14 @@ pre {
 }
 
 .site-content {
-    min-height: 60vh;
+    min-height: 90vh;
     padding-top: 1.5rem;
     margin-top: 57px;
     transition: all 0.4s;
+}
+
+.site-content > .container {
+    min-height: 90vh;
 }
 
 section {
@@ -303,9 +316,9 @@ span.post-read-more a:hover {
     font-family: Righteous;
 }
 
-.mainheading h1.posttitle {
-    font-weight: 700;
-    margin-bottom: 1rem;
+.posttitle {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 500;
 }
 
 .footer {
@@ -314,8 +327,8 @@ span.post-read-more a:hover {
     padding-bottom: 12px;
     font-size: 0.8rem;
     color: rgba(0, 0, 0, .44);
-    margin-top: 50px;
-    margin-bottom: 62px;
+    margin-top: 12px;
+    margin-bottom: 12px;
     position: relative;
     background: #fff;
 }
@@ -340,7 +353,7 @@ blockquote {
 
 .article-post p,
 .article-post blockquote {
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 3rem 0;
 }
 
 .featured-image {
@@ -381,7 +394,7 @@ blockquote {
 }
 
 .sticky-top-offset {
-    top: 100px;
+    top: 140px;
 }
 
 @media (min-width:1024px) {
@@ -620,9 +633,11 @@ ul.tags li a:hover {
     float: none;
 }
 
-.authorpage .author-description {
+.author-description {
     font-size: 1rem;
     color: rgba(0, 0, 0, .6);
+    display: flex;
+    /* justify-content: space-between; */
 }
 
 .post-top-meta.authorpage .btn.follow {
@@ -683,20 +698,26 @@ h6 {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-.article-post .h1,
-.article-post .h2,
 .article-post .h3,
 .article-post .h4,
 .article-post .h5,
 .article-post .h6,
-.article-post h1,
-.article-post h2,
 .article-post h3,
 .article-post h4,
 .article-post h5,
 .article-post h6 {
     font-weight: 700;
     margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.article-post .h1,
+.article-post .h2,
+.article-post h1,
+.article-post h2 {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
 }
 
 .article-post img.shadow {
@@ -716,7 +737,10 @@ h6 {
 
 img {
     max-width: 100%;
+    margin: 0 auto;
+    display: block;
 }
+
 
 .bottompagination span.navigation {
     display: block;
@@ -839,10 +863,14 @@ iframe {
     }
 }
 
-.card .img-fluid {
+.img-fluid {
     width: 100%;
 }
 
 .sticky-top-80 {
     top: 80px;
+}
+
+.pt-48 {
+    padding-top: 48px;
 }

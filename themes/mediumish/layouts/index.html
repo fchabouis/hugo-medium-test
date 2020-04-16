@@ -10,11 +10,11 @@
         ================================================== -->
         <section class="recent-posts pt-48">
             <div class="row listrecent">
-                
+                {{ range where .Pages "Section" "billets"}}
                     {{ range .Pages}}
                         {{- partial "list-partials/postbox.html" . -}}
                     {{ end }}
-                
+                {{end}}
             </div>
         </section>
     </div>
