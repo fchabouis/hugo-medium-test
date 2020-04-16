@@ -9,7 +9,7 @@ image: /images/viatransit.png
 ---
 Camille MONJO et Darius MARTIN, deux étudiants en ingénierie informatique à EPITECH Montpellier, ont développé viaTransit : une plateforme multi-modale simplifiant l'information voyageur et les déplacements dans les transports en commun.
 
-![martin et monjo](img/martin_et_monjo.jpg "Les deux fondateurs de ViaTransit")
+![martin et monjo](/images/martin_et_monjo.jpg "Les deux fondateurs de ViaTransit")
 
 <!--StartFragment-->
 
@@ -21,4 +21,4 @@ En fonction de la disponibilité des données sur transport.data.gouv.fr, l'équ
 
 <!--EndFragment-->
 
-![](img/viatransitapp.png)
+![](/images/viatransitapp.png)
