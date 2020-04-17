@@ -1,4 +1,4 @@
-baseURL = "https://sleepy-meitner-694faa.netlify.com/"
+baseURL = "https://blog.transport.data.gouv.fr/"
 languageCode = "fr"
 title = "Et PAN !"
 theme = "mediumish"

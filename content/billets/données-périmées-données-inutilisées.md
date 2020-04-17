@@ -5,6 +5,8 @@ description: Si une grande partie du territoire dispose désormais d'information
   ouverte sur transport.data.gouv.fr, cette information voyageur n'est pas
   toujours relayée par les réutilisateurs. Une des raisons principales, au delà
   de la qualité, est le maintien à jour en continu des données.
+tags:
+  - données
 image: /images/maj-publi.png
 ---
 ## Les réutilisateurs ont besoin d'une information à jour
