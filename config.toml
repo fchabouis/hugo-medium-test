@@ -10,7 +10,7 @@ publishDir = "public"
 #googleAnalytics = "UA-1XXXXXXX1-1"
 
 [params]
-  #logo = "/images/logo.png"
+  logo = "/images/logo-header.svg"
   description ="Le blog de transport.gouv.fr"
   #mailchimp = "you can provide a mailchimp-link here"
 
@@ -19,10 +19,8 @@ publishDir = "public"
   thumbnail = "/images/author.png"
   description = "Créateur de ce blog."
 
-[params.index]
-  picture = "/images/author.png"
-  title = "John Doe"
-  subtitle = "I'm a unique placeholder. Working here and there!"
+[params.reutilisateurs]
+  msg = "Nous réalisons une série d’entretiens avec différents réutilisateurs des données mises à disposition sur le Point d’Accès National, afin de valoriser l’usage qui est fait de la donnée de transport et illustrer des différents cas d’usage qu’elle peut avoir."
   mdtext = '''
 Currently trying to get this blog running, still don't know what the blog will be about!\
 **This textblock is a demonstration of the mdtext-param.**\
@@ -38,8 +36,24 @@ Currently trying to get this blog running, still don't know what the blog will b
   twitter = "<username>"
 
 ## Main Menu
-[[menu.main]]
-    name = "Site du projet"
-    weight = 100
-    identifier = "separate"
-    url = "https://transport.data.gouv.fr"
+## [[menu.main]]
+##    name = "Site du projet"
+##    weight = 100
+##    identifier = "separate"
+##    url = "https://transport.data.gouv.fr"
+
+[params.data]
+mois = [
+  "janvier",
+  "février",
+  "mars",
+  "avril",
+  "mai",
+  "juin",
+  "juillet",
+  "août",
+  "septembre",
+  "octobre",
+  "novembre",
+  "décembre"
+]
