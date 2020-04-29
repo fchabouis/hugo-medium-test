@@ -3,7 +3,7 @@
 {{ end }}
 
 {{ define "main" }}
-    <div class="main-content pt-48">
+    <div class="main-content pt-48 mh-80">
         <!-- Posts Index
         ================================================== -->        
         <section class="recent-posts">            
@@ -30,6 +30,10 @@
 {{ end }}
 
 {{ define "footer"}}
-    {{- partial "_shared/jumbotron.html" . -}}
-    {{- partial "_shared/footer.html" . -}}
+    <div class="container">
+        <span class="tags-list-beginning">Tous les tags</span>{{- partial "_shared/tags-list.html" . -}}
+    </div>
+    <div class="pt-48">
+        {{- partial "_shared/footer.html" . -}}
+    </div>
 {{ end }}

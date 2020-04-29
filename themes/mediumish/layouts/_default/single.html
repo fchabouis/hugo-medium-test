@@ -29,14 +29,32 @@
                     <span class="author-description">
                         <span>
                             <i class="far fa-star"></i>
-                            {{ dateFormat "Jan 2, 2006" .PublishDate }}
+                            {{ dateFormat "2.1.2006" .PublishDate }}
                         </span>
                         <span>
                             <i class="far fa-clock clock"></i>
-                            {{ .ReadingTime }} min read
+                            {{ .ReadingTime }} min de lecture
                         </span>
                     </span>	
 
+                    <!-- Post Categories -->
+                    <div class="pt-24">
+                        <ul class="tags">
+                            <span><i class="fas fa-tags"></i></span>
+                        {{ range .Params.tags }}
+                        <li>
+                        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
+                        </li>
+                        {{ end }}
+                        </ul>
+                    </div>
+                    <!-- End Categories -->
+
+                    <div class="">
+                        <blockquote>
+                        	{{ .Site.Params.reutilisateurs.msg }}
+                        </blockquote>
+                    </div>
 
                     <!-- Post Featured Image -->
                     <div class="pt-48">
@@ -49,28 +67,16 @@
                         {{ .Content}}
                     </div>
                     
-                    <!-- Post Categories -->
-                    <div class="after-post-tags">
-                        <ul class="tags">
-                        {{ range .Params.tags }}
-                        <li>
-                        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
-                        </li>
-                        {{ end }}
-                        </ul>
-                    </div>
-                    <!-- End Categories -->
-                    
                     <!-- Next and PrevPage inside current section -->
-                    <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
-                    {{with .NextInSection}}
-                        <a class="d-block col-md-6" href="{{.Permalink}}"> &laquo; {{.Title}}</a>
-                    {{end}}
-                    {{with .PrevInSection}}
-                        <a class="d-block col-md-6 text-lg-right" href="{{.Permalink}}">{{.Title}} &raquo;</a>
-                    {{end}}
-                    <div class="clearfix"></div>
-                    </div>
+                    <!-- <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+                        {{with .NextInSection}}
+                            <a class="d-block col-md-6" href="{{.Permalink}}"> &laquo; {{.Title}}</a>
+                        {{end}}
+                        {{with .PrevInSection}}
+                            <a class="d-block col-md-6 text-lg-right" href="{{.Permalink}}">{{.Title}} &raquo;</a>
+                        {{end}}
+                        <div class="clearfix"></div>
+                    </div> -->
                     <!-- End Next and PrevPage -->
                 </div>
                 <!-- End Post -->

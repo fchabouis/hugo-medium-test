@@ -21,8 +21,8 @@
                     <span class="post-name">{{ .Site.Params.author }}</a></span><br/>
                 {{end}}
                 {{end}}
-                {{ $stationsN := cond (ge 1 (div .ReadingTime 2)) 1 (div .ReadingTime 2)}}
-                <span class="post-date">{{ dateFormat "Jan 2, 2006" .PublishDate }} - Temps de lecture : {{  $stationsN }} station{{- cond (eq $stationsN 1) "" "s" }} de métro </span>
+                {{ $stationsN := cond (ge 1 (div .ReadingTime 3)) 1 (div .ReadingTime 3)}}
+                <span class="post-date">{{ dateFormat "2.1.2006" .Date }} - Temps de lecture : {{  $stationsN }} arrêt{{- cond (eq $stationsN 1) "" "s" }} de bus </span>
                 </span>
                 <div class="clearfix"></div>
             </div>

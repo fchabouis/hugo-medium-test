@@ -20,8 +20,8 @@
 .clock{
     margin-left: 25px;
 }
-.jumbotron.fortags a {
-    background: #1C9963 !important;
+.fortags a {
+    background: rgb(0, 83, 179); !important;
 }
 .error{
     text-align: center !important;
