@@ -12,9 +12,7 @@
             </div>
             {{ if (eq .Title "réutilisations")}}
             <div class="article-description pb-48">
-                Nous réalisons une série d’entretiens avec différents réutilisateurs des données mises à disposition 
-                sur le Point d’Accès National, afin de valoriser l’usage qui est fait de la donnée de transport et 
-                illustrer des différents cas d’usage qu’elle peut avoir.
+                {{ .Site.Params.reutilisateurs.msg }}
             </div>
         {{ end }}
             <div class="row listrecent">

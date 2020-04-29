@@ -50,11 +50,11 @@
                     </div>
                     <!-- End Categories -->
 
-                    <div class="">
+                    {{ if in .Params.tags "réutilisations"}}
                         <blockquote>
-                        	{{ .Site.Params.reutilisateurs.msg }}
+                            {{ .Site.Params.reutilisateurs.msg }}
                         </blockquote>
-                    </div>
+                    {{ end }}
 
                     <!-- Post Featured Image -->
                     <div class="pt-48">
