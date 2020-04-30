@@ -78,6 +78,14 @@ section.recent-posts {
   margin-bottom: -1px;
 }
 
+.article-post img {
+  max-width: 100%;
+  max-height: 50vh;
+  margin: 0 auto;
+  display: block;
+  margin: 50px 0 50px 0;
+}
+
 .article-post ol,
 .article-post ul {
   margin: 30px 0 30px 0;
@@ -803,14 +811,6 @@ h4 {
 
 .layout-page .article-post p {
   margin-bottom: 1rem;
-}
-
-img {
-  max-width: 100%;
-  max-height: 50vh;
-  margin: 0 auto;
-  display: block;
-  margin: 50px 0 50px 0;
 }
 
 .bottompagination span.navigation {
