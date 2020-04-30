@@ -346,6 +346,10 @@ span.post-read-more a:hover {
   padding-top: 12px;
 }
 
+.footer-logo img {
+  max-width: 300px;
+}
+
 .link-dark {
   color: rgba(0, 0, 0, 0.8);
 }
