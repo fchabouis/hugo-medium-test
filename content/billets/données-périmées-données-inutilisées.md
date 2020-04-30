@@ -9,8 +9,6 @@ description: Si une grande partie du territoire dispose désormais d'information
   de la qualité, est le maintien à jour en continu des données.
 image: /images/maj-publi.png
 ---
-## Les réutilisateurs ont besoin d'une information à jour
-
 Pour maintenir une information de qualité, les réutilisateurs de données d'information voyageur ont besoin de sources fiables. Deux critères de fiabilité s'imposent : 
 
 1. la qualité des données elles-mêmes ;
@@ -18,7 +16,11 @@ Pour maintenir une information de qualité, les réutilisateurs de données d'in
 
 Si transport.data.gouv.fr dispose d'un validateur permettant de tester les deux critères, la période de validité est un enjeu au moins aussi complexe que la qualité des données en elles-mêmes.
 
-## Bien guider l'usager
+- - -
+
+## Les bénéfices d'une donnée à jour
+
+### Bien guider l'usager
 
 Les réutilisateurs attirent les usagers grâce à la qualité de l'information qu'ils relaient. Si le service de bus a changé entre hier et aujourd'hui, mais que mon application préférée n'a pas eu cette information, elle ne pourra pas me permettre de me rendre facilement où j'ai besoin d'aller.
 
@@ -44,7 +46,9 @@ Plus concrètement, si un jeu de données décrivant les horaires d'un réseau e
 
 Ceci nécessite dans le cas de modification du réseau, la création d'un jeu de données de transition, qui contient à la fois des données du nouveau et de l'ancien réseau, ou bien une publication anticipée du nouveau réseau.
 
-## Statistiques
+- - -
+
+## Quelques statistiques
 
 > 82% des réseaux référencés sur transport.data.gouv.fr sont à jour
 
@@ -70,9 +74,11 @@ Sur la période autour du changement d'années, les données de 5 AOMs qui publi
 
 On constate que **la mise à jour effective se fait le plus souvent entre 2 et 4 semaines après la péremption du fichier précédent.** Cependant, les réutilisateurs et usagers ont besoin d'une mise à jour au moins quelques jours, voire quelques semaines avant la péremption du fichier précédent.
 
-> **Il est possible d'améliorer facilement les procédés de mise à jour**
-
 Face à ces difficultés pour maintenir l'information à jour, il existe des moyens de se préparer et de rendre ceci bien plus simple.
+
+- - -
+
+## Améliorer les procédés de mise à jour
 
 ### Personne n'est indispensable
 
@@ -98,7 +104,9 @@ Pourtant, il est possible de publier les données immédiatement après leur pro
 
 Dans la plupart des cas, le membre de l'AOM qui a les droits sur le compte n'a pas la capacité d'analyser le fichier GTFS, ni même de le manipuler. Il n'opère pas de véritable contrôle. De plus, en ayant un compte avec des droits d'administration supérieurs, le responsable de l'AOM peut vérifier que l'opérateur ne publie pas d'autres données.
 
-## Mise à jour impropre
+- - -
+
+## Le problème de la mise à jour impropre
 
 ### Une donnée, un fichier, plusieurs références
 
@@ -133,7 +141,7 @@ Les deux premières raisons reposent sur des difficultés techniques et peuvent 
 
 ## Deux situations, deux méthodes de mise à jour
 
-Dans l'interface entre transport.data.gouv.fr comme sur data.gouv.fr, il existe deux manières de gérer les mise à jour.
+> Dans l'interface entre transport.data.gouv.fr comme sur data.gouv.fr, il existe deux manières de gérer les mise à jour.
 
 #### Le fichier précédent ne sera plus utile : mise à jour
 
@@ -148,11 +156,7 @@ Cette procédure permet non pas de remplacer le fichier existant, mais d'ajouter
 
 Ceci permet aux réutilisateurs de faire le changement au bon moment. Par exemple, si le fichier est valide jusqu'au 31 décembre, il est possible d'ajouter le fichier valide à partir du 1er janvier dès le 15 décembre comme nouvelle ressource. Les deux fichiers seront exposés sur transport.data.gouv.fr.
 
-
-
----
-
-
+- - -
 
 ## 3 conseils pour une autorité organisatrice de la mobilité
 
