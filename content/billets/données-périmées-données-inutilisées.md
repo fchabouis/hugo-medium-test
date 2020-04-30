@@ -1,12 +1,12 @@
 ---
 title: Données périmées, données inutilisées !
 date: 2020-04-15T14:58:14.103Z
+tags:
+  - données
 description: Si une grande partie du territoire dispose désormais d'information
   ouverte sur transport.data.gouv.fr, cette information voyageur n'est pas
   toujours relayée par les réutilisateurs. Une des raisons principales, au delà
   de la qualité, est le maintien à jour en continu des données.
-tags:
-  - données
 image: /images/maj-publi.png
 ---
 ## Les réutilisateurs ont besoin d'une information à jour
@@ -18,7 +18,7 @@ Pour maintenir une information de qualité, les réutilisateurs de données d'in
 
 Si transport.data.gouv.fr dispose d'un validateur permettant de tester les deux critères, la période de validité est un enjeu au moins aussi complexe que la qualité des données en elles-mêmes.
 
-### Bien guider l'usager
+## Bien guider l'usager
 
 Les réutilisateurs attirent les usagers grâce à la qualité de l'information qu'ils relaient. Si le service de bus a changé entre hier et aujourd'hui, mais que mon application préférée n'a pas eu cette information, elle ne pourra pas me permettre de me rendre facilement où j'ai besoin d'aller.
 
@@ -27,30 +27,26 @@ Les réutilisateurs attirent les usagers grâce à la qualité de l'information 
 Lorsque le réseau de transport n'a pas été mis à jour sur transport.data.gouv.fr, trois possibilités se présentent à l'usager : 
 
 1. le réutilisateur a prolongé les horaires précédents, et les nouveaux horaires sont en effet les mêmes (cas majoritaire) : **le trajet se passe normalement pour l’usager ;**
-2. le réutilisateur a simplement retiré l’informationn voyageur pour ce réseau : **aucune information pour l’usager ;**
+2. le réutilisateur a simplement retiré l’information voyageur pour ce réseau : **aucune information pour l’usager ;**
 3. le réutilisateur a prolongé les horaires précédents, mais les horaires avaient changé : **l’usager reçoit une mauvaise information.**
 
 **L'usager non informé ou mal informé peut changer de mode d'information,** entraînant une perte de fréquentation pour les réutilisateurs. Mais **l'usager peut aussi penser que les transports en commun ne sont pas un mode de transport fiable** car ce matin là, il avait un entretien d'embauche, un train à prendre, ou un autre événement qu'il a loupé à cause de cette absence de mise à jour. Il reprendra alors son véhicule personnel.
 
-Tout le bénéfice de l'information voyageur ouverte pour permettre une meilleure accessibilité et donc diminuer l'usage des modes de transports les plus polluants est donc perdu.  
+Tout le bénéfice de l'information voyageur ouverte pour permettre une meilleure accessibilité et donc diminuer l'usage des modes de transports les plus polluants est donc perdu.
 
+## Calculer l'itinéraire pour demain
 
+L'autre exigence importante des usagers est le calcul d'itinéraire pour le lendemain, ou la semaine prochaine par exemple.
 
-![](/images/image5.jpg "un peu de fraicheur")
+Ceci ne demande plus aux producteurs de fournir des données à jour, mais plutôt d'**avoir des données qui sont toujours valables au moins quelques jours après.**
 
-
-
-### Calculer l'itinéraire pour demain
-
-L'autre exigence importante des usagers est le calcul d'itinéraire pour demain, ou la semaine prochaine par exemple.
-
-Ceci ne demande plus aux producteurs de délivrer des données à jour, mais plutôt d'**avoir des données qui sont toujours valables au moins quelques jours après.** Plus concrètement, si un jeu de données décrivant les horaires d'un réseau est valable jusqu'au 31 décembre, il faut proposer une mise à jour le 15 décembre, voire avant pour permettre la majeur partie des calculs d'itinéraires faits en prévision.
+Plus concrètement, si un jeu de données décrivant les horaires d'un réseau est valable jusqu'au 31 décembre, il faut proposer une mise à jour le 15 décembre, voire avant pour permettre la majeur partie des calculs d'itinéraires faits en prévision.
 
 Ceci nécessite dans le cas de modification du réseau, la création d'un jeu de données de transition, qui contient à la fois des données du nouveau et de l'ancien réseau, ou bien une publication anticipée du nouveau réseau.
 
-## 82% des réseaux référencés sur transport.data.gouv.fr sont à jour
+## Statistiques
 
-### Statistiques
+> 82% des réseaux référencés sur transport.data.gouv.fr sont à jour
 
 Avec le changement d'année 2019-2020, un certain nombre de fichiers sont arrivés à leur date d'expiration. L'occasion de disposer de quelques statistiques sur les manques de mise à jour.
 
@@ -64,7 +60,7 @@ Avec le changement d'année 2019-2020, un certain nombre de fichiers sont arriv�
 
 Cependant, si l'on prend en compte le nombre d'AOMs pour revenir en proportions, on constate que 82% des AOMs qui ont publié individuellement ont aujourd'hui des données à jour, et **seulement 6% ont des données périmées depuis plus de 2 semaines.**
 
-![Proportion des données à jour](/blog/donnees_perimees/MAJ-article-maj-de.png)
+![Proportion des données à jour](/images/maj-article-maj-de.png "Proportion des données à jour")
 
 ### Peu de données sont à jour en réelle continuité
 
@@ -74,7 +70,7 @@ Sur la période autour du changement d'années, les données de 5 AOMs qui publi
 
 On constate que **la mise à jour effective se fait le plus souvent entre 2 et 4 semaines après la péremption du fichier précédent.** Cependant, les réutilisateurs et usagers ont besoin d'une mise à jour au moins quelques jours, voire quelques semaines avant la péremption du fichier précédent.
 
-## Il est possible d'améliorer facilement les procédés de mise à jour
+> **Il est possible d'améliorer facilement les procédés de mise à jour**
 
 Face à ces difficultés pour maintenir l'information à jour, il existe des moyens de se préparer et de rendre ceci bien plus simple.
 
@@ -82,7 +78,7 @@ Face à ces difficultés pour maintenir l'information à jour, il existe des moy
 
 Dans un nombre important de mises à jour non-effectuées, il s'avère que la personne en charge précédemment a quitté ses fonctions. Si la mission n'est pas bien transmise ou que les droits d'accès ne sont pas accordés au successeur, il ne peut pas mettre à jour.
 
-Il n'est pas sûr que tout repose sur une seule personne. Pour la partie technique, nous remarquons assez peu de disfonctionnement. En revanche, pour *déposer le fichier sur la plateforme*, les problèmes sont nombreux. Mais une mesure très simple a raison de tous ces problèmes :
+Il n'est pas sûr que tout repose sur une seule personne. Pour la partie technique, nous remarquons assez peu de dysfonctionnement. En revanche, pour *déposer le fichier sur la plateforme*, les problèmes sont nombreux. Mais une mesure très simple a raison de tous ces problèmes :
 
 > **Toujours avoir au moins deux personnes membres de l'organisation sur data.gouv.fr**
 
@@ -90,15 +86,15 @@ D'une part, avec plusieurs membres, si l'un n'est pas présent, l'autre peut soi
 
 ### Réduire le nombre de personnes nécessaires
 
-Sur un certain nombre de territoires, l'actualisation passe par un fichier qui transite par plusieurs boîtes mail avant d'être finalement publié en open data. Si l'un des correspondant tarde, le nouveau fichier n'arrive pas avant la fin de la validité du prédédent.
+Sur un certain nombre de territoires, l'actualisation passe par un fichier qui transite par plusieurs boîtes mail avant d'être finalement publié en open data. Si l'un des correspondant tarde, le nouveau fichier n'arrive pas avant la fin de la validité du précédent.
 
-![Membres de l'organisation sur data.gouv.fr](/blog/donnees_perimees/maj-datagouv.png)
+![Membres de l'organisation sur data.gouv.fr](/images/maj-datagouv.png "Membres de l'organisation sur data.gouv.fr")
 
-*Le schéma de l'état actuel est relativement simple sur cette image, dans certains cas, le fichier peut passer par 4 personnes avant publication.*
+Le schéma de l'état actuel est relativement simple sur cette image, dans certains cas, le fichier peut passer par 4 personnes avant publication.
 
 Pourtant, il est possible de publier les données immédiatement après leur production ce qui réduit la charge de travail mais surtout diminue le délai de mise à jour.
 
-> **Permettre au délégataire ou à son prestataire de publier directement les données**
+### Permettre au délégataire ou à son prestataire de publier directement les données
 
 Dans la plupart des cas, le membre de l'AOM qui a les droits sur le compte n'a pas la capacité d'analyser le fichier GTFS, ni même de le manipuler. Il n'opère pas de véritable contrôle. De plus, en ayant un compte avec des droits d'administration supérieurs, le responsable de l'AOM peut vérifier que l'opérateur ne publie pas d'autres données.
 
@@ -131,7 +127,7 @@ Outre l'absence de mise à jour, de nombreux cas montrent une mise à jour impro
 2. ils disposent d'une plateforme open data locale qui ne gère pas bien la mise à jour ;
 3. ils pensent que la mise à jour va effacer les données précédentes et donc ne veulent pas s'en servir avant la date butoir, ou bien, ils veulent garder un historique même après la fin de la validité.
 
-*Les motifs 1 et 3 ne concernent que les mises à jour manuelles, qui devraient exister de moins en moins grâce au passage vers plus de références et moins de fichiers déposés.*
+Les motifs 1 et 3 ne concernent que les mises à jour manuelles, qui devraient exister de moins en moins grâce au passage vers plus de références et moins de fichiers déposés.
 
 Les deux premières raisons reposent sur des difficultés techniques et peuvent donc être résolues en les informant ou en demandant à leur prestataire de plateforme des corrections, le troisième motif est plus complexe.
 
@@ -151,6 +147,12 @@ Cette procédure est une mise à jour simple, elle remplace l'ancien fichier par
 Cette procédure permet non pas de remplacer le fichier existant, mais d'ajouter une ressource (un fichier) au jeu de données. Grâce à cette possibilité, on peut lier deux fichiers en indiquant explicitement le lien.
 
 Ceci permet aux réutilisateurs de faire le changement au bon moment. Par exemple, si le fichier est valide jusqu'au 31 décembre, il est possible d'ajouter le fichier valide à partir du 1er janvier dès le 15 décembre comme nouvelle ressource. Les deux fichiers seront exposés sur transport.data.gouv.fr.
+
+
+
+---
+
+
 
 ## 3 conseils pour une autorité organisatrice de la mobilité
 
