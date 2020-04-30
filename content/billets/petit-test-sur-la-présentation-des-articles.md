@@ -18,3 +18,12 @@ Avec un petit paragraphe en dessous, voila, le paragraphe n’est pas très élo
 ### Voila, ça c’est un sous-titre
 
 Et la je peux écrire mon texte tranquillement. C’est assez clair. La vie est belle. C’est hyper bien fait. Et la je peux écrire mon texte tranquillement. C’est assez clair. La vie est belle. C’est hyper bien fait. Et la je peux écrire mon texte tranquillement. C’est assez clair. La vie est belle. C’est hyper bien fait. Et la je peux écrire mon texte tranquillement. C’est assez clair. La vie est belle. C’est hyper bien fait.
+
+> Maintenant hop je teste un petit blockquote.
+
+Je peux me refaire un paragraphe. Et ce qui serait top c'est de pouvoir faire une séparation de parties.
+
+---
+
+## Boom une séparation !
+Pas mal John. Pas mal du tout.
