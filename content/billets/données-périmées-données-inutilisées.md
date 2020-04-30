@@ -1,13 +1,13 @@
 ---
 title: Données périmées, données inutilisées !
-date: 2020-04-15T14:58:14.103Z
+date: 2020-01-16T15:58:14.103Z
 tags:
   - données
 description: Si une grande partie du territoire dispose désormais d'information
   ouverte sur transport.data.gouv.fr, cette information voyageur n'est pas
   toujours relayée par les réutilisateurs. Une des raisons principales, au delà
   de la qualité, est le maintien à jour en continu des données.
-image: /images/maj-publi.png
+image: /images/abandonned_bus.jpg
 ---
 Pour maintenir une information de qualité, les réutilisateurs de données d'information voyageur ont besoin de sources fiables. Deux critères de fiabilité s'imposent : 
 
