@@ -3,8 +3,11 @@ title: "Création d’un fichier GTFS: Interview avec le Grand Guéret"
 date: 2019-10-24T13:49:27.133Z
 tags:
   - format de données
+  - réutilisations
+  - GTFS
 description: Une communauté d'agglomération revient sur la création d'un fichier
   GTFS à partir de zéro.
+image: /images/agglo-bus_1_-c-_collection_grand_guçret.jpg
 ---
 La plateforme transport.data.gouv.fr privilégie le référencement de données au format GTFS (General Transit Feed Specifications). Il s’agit d’un format de fichier très utilisé pour décrire les horaires de transports en commun.
 
