@@ -1,6 +1,6 @@
 ---
 title: Données périmées, données inutilisées !
-date: 2020-04-15T14:58:14.103Z
+date: 2020-01-16T15:58:14.103Z
 tags:
   - données
 description: Si une grande partie du territoire dispose désormais d'information
