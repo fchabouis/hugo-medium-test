@@ -119,7 +119,7 @@ Une mauvaise pratique assez répandue rend les mises à jour parfois difficiles 
 
 Il y a donc 4 exemplaires du côté de la collectivité, plus celui stocké dans les bases du délégataire. Toute mise à jour se transforme en 5 mises à jour, avec de fortes chances que tôt ou tard, l'une ou l'autre soit oubliée.
 
-![Schema](/blog/donnees_perimees/maj-publi.png)
+![Schema](/images/maj-publi.png)
 
 > **Déposer le fichier sur un seul emplacement où il est maintenu à jour par le producteur, et y faire référence grâce à son url**
 
