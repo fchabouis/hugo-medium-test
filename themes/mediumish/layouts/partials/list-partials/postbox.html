@@ -15,15 +15,13 @@
                 {{if isset .Site.Params "author"}}
                 {{if isset .Site.Params "author_thumb"}}
                     <span class="meta-footer-thumb">
-                    <img class="author-thumb" src="{{ .Site.Params.author_thumb | urlize | relURL  }}" alt="{{ .Site.Params.author }}">
+                        <img class="author-thumb" src="{{ .Site.Params.author_thumb | urlize | relURL  }}" alt="{{ .Site.Params.author }}">
                     </span>                
-                    <span class="author-meta">
                     <span class="post-name">{{ .Site.Params.author }}</a></span><br/>
                 {{end}}
                 {{end}}
                 {{ $stationsN := cond (ge 1 (div .ReadingTime 3)) 1 (div .ReadingTime 3)}}
                 <span class="post-date">{{ dateFormat "2.1.2006" .Date }} - Temps de lecture : {{  $stationsN }} arrêt{{- cond (eq $stationsN 1) "" "s" }} de bus </span>
-                </span>
                 <div class="clearfix"></div>
             </div>
         </div>
