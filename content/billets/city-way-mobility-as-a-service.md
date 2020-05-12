@@ -14,7 +14,9 @@ image: /images/cityway.png
 ---
 > ### City way : Mobility as a service
 
-*Insérer image* 
+
+
+![](/images/cityway-équipe.png)
 
 <!--StartFragment-->
 
@@ -24,17 +26,9 @@ Elle conçoit les SIM des deux tiers des régions françaises.
 
 <!--EndFragment-->
 
-
-
 <!--StartFragment-->
 
-
-
-
-
-> ### Réutilisations des données de transport.data.gouv.fr 
->
-> <!--EndFragment-->
+> ### Réutilisations des données de transport.data.gouv.fr
 
 *Insérer Image* 
 
@@ -46,12 +40,10 @@ La filiale produit également des données publiées sur transport.data.gouv.fr
 
 <!--EndFragment-->
 
-> ### **A venir** 
+> ### **A venir**
 
 <!--StartFragment-->
 
 Intégration des données accessibilité pour les personnes à mobilité réduite 
-
-
 
 <!--EndFragment-->
