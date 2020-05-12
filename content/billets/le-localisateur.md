@@ -1,5 +1,5 @@
 ---
-title: "Le Localisateur "
+title: "Paroles de réutilisateur : Le Localisateur "
 date: 2020-04-20T13:25:17.424Z
 tags:
   - données
@@ -12,11 +12,9 @@ description: "Nous réalisons une série d’entretiens avec différents
   Philippe LEON ingénieur, développeur du Localisateur "
 image: /images/capture.png
 ---
+### Le Localisateur : Le web en clair pour tous
 
-
-### Le Localisateur : Le web en clair pour tous 
-
-![](/images/hauy.png "Localisateur ")
+![](/images/hauy.png "L’association Valentin Haüy")
 
 <!--StartFragment-->
 
@@ -24,13 +22,9 @@ Le Localisateur est un logiciel agrégateur d’information, qui rend accessible
 
 <!--EndFragment-->
 
-
-
-
-
 ### Réutilisations des données de transport.data.gouv.fr
 
-![](/images/le-loc.png "Capture site web ")
+![](/images/le-loc.png "Le site web ")
 
 <!--StartFragment-->
 
@@ -40,9 +34,7 @@ L'équipe de développement continue à étendre la couverture du système d'aut
 
 <!--EndFragment-->
 
-
-
-### A venir 
+### A venir
 
 <!--StartFragment-->
 
